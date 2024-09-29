@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "sixfacedworld",
+	"version": "${version}",
+	"name": "Six Faced World Mod",
+	"description": "This is a mod that brings the world of Mushoku Tensei, Jobless Reincarnation, to minecraft",
+	"authors": [
+		"Adeway"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/sixfacedworld/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"net.adeway.sixfacedworld.SixFacedWorldModClient"
+		],
+		"fabric-datagen": [
+			"net.adeway.sixfacedworld.SixFacedWorldModDataGenerator"
+		]
+	},
+	"mixins": [
+		"sixfacedworld.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
