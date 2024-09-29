@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "sixfacedworld:block/death_adder_rat_skin_block_top",
+    "side": "sixfacedworld:block/death_adder_rat_skin_block"
+  }
+}

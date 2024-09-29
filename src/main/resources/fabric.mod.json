@@ -15,7 +15,9 @@
 	"icon": "assets/sixfacedworld/icon.png",
 	"environment": "*",
 	"entrypoints": {
-		"client": [
+		"main": [
+			"net.adeway.sixfacedworld.SixFacedWorldMod"
+		],"client": [
 			"net.adeway.sixfacedworld.SixFacedWorldModClient"
 		],
 		"fabric-datagen": [

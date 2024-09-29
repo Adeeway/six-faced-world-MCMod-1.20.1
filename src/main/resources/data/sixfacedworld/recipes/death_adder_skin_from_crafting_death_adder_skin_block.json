@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "sixfacedworld:death_adder_skin_block"
+    }
+  ],
+  "result": {
+    "item": "sixfacedworld:death_adder_skin",
+    "count": 9
+  }
+}

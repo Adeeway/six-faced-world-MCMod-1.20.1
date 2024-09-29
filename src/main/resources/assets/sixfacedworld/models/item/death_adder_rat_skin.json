@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "sixfacedworldmod:item/death_adder_rat_skin"
+    "layer0": "sixfacedworld:item/death_adder_rat_skin"
   }
 }

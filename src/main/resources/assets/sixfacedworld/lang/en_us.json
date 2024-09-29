@@ -1,3 +1,8 @@
 {
-  "item.sixfacedworld.death_adder_rat_skin": "Death Adder Rat Skin"
+  "item.sixfacedworld.death_adder_rat_skin": "Death Adder Rat Skin",
+
+  "block.sixfacedworld.death_adder_rat_skin_block": "Block of Death Adder Rat Skins",
+
+  "itemgroup.six_faced_world_items": "Six Faced World Items",
+  "itemgroup.six_faced_world_blocks": "Six Faced World Blocks"
 }

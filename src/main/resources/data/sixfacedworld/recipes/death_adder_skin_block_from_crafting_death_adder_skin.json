@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "sixfacedworld:death_adder_rat_skin"
+    },
+    "result": {
+      "item": "sixfacedworld:death_adder_rat_skin_block"
+    }
+  }
+}

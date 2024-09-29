@@ -1,5 +1,7 @@
 package net.adeway.sixfacedworld;
 
+import net.adeway.sixfacedworld.block.ModBlocks;
+import net.adeway.sixfacedworld.item.ModItemGroups;
 import net.adeway.sixfacedworld.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -15,7 +17,9 @@ public class SixFacedWorldMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }
